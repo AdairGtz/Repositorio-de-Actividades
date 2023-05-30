@@ -1,0 +1,125 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "currency convert",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "close"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "bye",
+                        "see you"
+                    ]
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hello world",
+                        "say hello",
+                        "hello word"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Convertir_euro_peso",
+                    "slots": [
+                        {
+                            "name": "cantidad",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "convert {cantidad} euros to pesos",
+                        "{cantidad} euros a pesos",
+                        "convierte {cantidad} euros a pesos"
+                    ]
+                },
+                {
+                    "name": "Convertir_peso_euro",
+                    "slots": [
+                        {
+                            "name": "cantidad",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "convert {cantidad} pesos to euros",
+                        "{cantidad} pesos a euros",
+                        "convierte {cantidad} pesos a euros"
+                    ]
+                },
+                {
+                    "name": "Convertir_dolar_peso",
+                    "slots": [
+                        {
+                            "name": "cantidad",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "convert {cantidad} dollars to pesos",
+                        "convierte {cantidad} dolares a pesos"
+                    ]
+                },
+                {
+                    "name": "Convertir_peso_dolar",
+                    "slots": [
+                        {
+                            "name": "cantidad",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "convert {cantidad} pesos to dollars",
+                        "convierte {cantidad} pesos a dolares"
+                    ]
+                },
+                {
+                    "name": "Convertir_dolar_euro",
+                    "slots": [
+                        {
+                            "name": "cantidad",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "convert {cantidad} dollars to euros",
+                        "{cantidad} dolares a euros",
+                        "convierte {cantidad} dolares a euros"
+                    ]
+                },
+                {
+                    "name": "Convertir_euro_dolar",
+                    "slots": [
+                        {
+                            "name": "cantidad",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "convert {cantidad} euros to dollars",
+                        "convierte {cantidad} euros a dolares"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
